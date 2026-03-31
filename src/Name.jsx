@@ -1,7 +1,7 @@
 function Name(props){
     return(
         <>
-        <h1>My Name is {props.name}</h1>
+        <h1>My Name is {props.name} iam 21 years old</h1>
         </>
     );
 }
