@@ -10,7 +10,7 @@ function Products() {
       <h1>Products Page</h1>
       <nav style={{ marginBottom: '20px' }}>
         <Link to="/products/car">Cars</Link> |{" "}
-        <Link to="/products/bike">Bikes</Link>
+        <Link to="/products/bike">Bikessssssssss</Link>
       </nav> 
       <Outlet /> 
     </div>
@@ -71,7 +71,6 @@ function Name() {
 
       <h1>Current value: {name}</h1>
     </>
-=======
   return (
     <BrowserRouter>
       {/* Navigation */}
@@ -91,7 +90,6 @@ function Name() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>  
->>>>>>> 1658137 (fourth commit)
   );
 }
 
